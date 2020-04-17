@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://syncstack.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'syncstack', // Usually your GitHub org/user name.
-  projectName: 'syncstack.github.io', // Usually your repo name.
+  organizationName: 'syncstack', 
+  projectName: 'syncstack.github.io',
   themeConfig: {
     navbar: {
       title: 'SyncStack',
@@ -86,7 +86,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} SyncStack`,
     },
     googleAnalytics: {
-      trackingID: 'UA-141789564-1',
+      trackingID: 'UA-163876269-1',
     },    
   },
   presets: [
