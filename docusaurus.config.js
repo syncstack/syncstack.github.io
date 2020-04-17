@@ -6,13 +6,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'syncstack', 
   projectName: 'syncstack.github.io',
-  themeConfig: {
+  themeConfig: { 
     navbar: {
       title: 'SyncStack',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
       links: [
         {
           to: 'docs/getting-started/getting-started',
@@ -52,7 +48,7 @@ module.exports = {
             },
             {
               label: 'Clients',
-              to: 'docs/doc1',
+              to: 'docs/getting-started/clients',
             },
             {
               label: 'FAQ',
