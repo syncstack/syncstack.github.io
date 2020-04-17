@@ -1,7 +1,7 @@
 module.exports = {
   title: 'SyncStack',
   tagline: 'Fault tolerant high performance SQL database 🚀',
-  url: 'syncstack.github.io',
+  url: 'https://syncstack.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'syncstack', // Usually your GitHub org/user name.
