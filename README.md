@@ -1,3 +1,10 @@
+```
+git checkout -b dev 
+npm install 
+npm run build 
+GIT_USER=username npm run deploy
+```
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
