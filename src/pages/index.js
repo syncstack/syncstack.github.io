@@ -33,7 +33,7 @@ const features = [
     description: (
       <>
         You can create a table as like in traditional db or json table.
-        You can create a <code>json></code> table and query it.
+        You can create a <code>json</code> table and query it.
       </>
     ),
   },
