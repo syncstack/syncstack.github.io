@@ -55,7 +55,23 @@ const features = [
         We have Kubernetes and Docker integration. 
         You can just look at the documentation.
       </>
-    ),
+    )
+  },
+    {
+      title: <>StynStack Tutorials</>,
+      imageUrl: 'img/undraw_how_to.svg',
+      description: (
+        <>
+          <ul>
+            <li> <a href=""> How to use SyncStack With Java Client</a></li>
+            <li> <a href="">  How to use SyncStack with Spring-Boot</a></li>
+            <li> <a href="">  Using SyncStack as a Cache Service</a></li>
+            <li> <a href="">  Using SyncStack as a PUB-SUB</a></li>
+            <li> <a href="">  Using SyncStack as a Cache Service</a></li>
+            <li> <a href="">  Using SyncStack as a Session Store</a></li>
+          </ul>
+        </>
+      ),
   },
 
 ];
