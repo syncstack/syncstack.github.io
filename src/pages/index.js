@@ -32,7 +32,7 @@ const features = [
     imageUrl: 'img/undraw_server.svg',
     description: (
       <>
-        You can create a table as like in traditional db or json table.
+        You can create a table as you do in traditional db or json table.
         You can create a <code>json</code> table and query it.
       </>
     ),

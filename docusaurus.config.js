@@ -88,7 +88,13 @@ module.exports = {
     },
     googleAnalytics: {
       trackingID: 'UA-163876269-1',
-    },    
+    },
+    algolia: {
+      appId: 'app-id',
+      apiKey: 'api-key',
+      indexName: 'index-name',
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
   },
   presets: [
     [
