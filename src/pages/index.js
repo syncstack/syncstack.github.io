@@ -65,7 +65,6 @@ const features = [
             <li> <a href="">  How to use SyncStack with Spring-Boot</a></li>
             <li> <a href="">  Using SyncStack as a Cache Service</a></li>
             <li> <a href="">  Using SyncStack as a PUB-SUB</a></li>
-            <li> <a href="">  Using SyncStack as a Cache Service</a></li>
             <li> <a href="">  Using SyncStack as a Session Store</a></li>
           </ul>
         </>
