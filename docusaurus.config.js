@@ -8,10 +8,10 @@ module.exports = {
   projectName: 'syncstack.github.io',
   themeConfig: { 
     navbar: {
-      title: 'SyncStack',
+      title: 'SYNCSTACK',
       links: [
         {
-          to: 'docs/getting-started/getting-started',
+          to: 'docs/get-started/syncstack',
           activeBasePath: 'docs',
           label: 'Documentation',
           position: 'right',
@@ -23,7 +23,7 @@ module.exports = {
           position: 'right',
         },        
         {
-          to: 'docs/getting-started/clients',
+          to: 'docs/clients/clients',
           activeBasePath: 'docs',
           label: 'Clients',
           position: 'right',
@@ -44,11 +44,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/getting-started/getting-started',
+              to: 'docs/get-started/getting-started',
             },
             {
               label: 'Clients',
-              to: 'docs/getting-started/clients',
+              to: 'docs/clients/java',
             },
             {
               label: 'FAQ',

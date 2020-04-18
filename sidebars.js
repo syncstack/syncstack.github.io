@@ -1,12 +1,12 @@
 module.exports = {
   someSidebar: {
     'Getting Started': [
-      'getting-started/getting-started',
-      'getting-started/run-syncstack-locally',
-      'getting-started/run-syncstack-docker',
-      'getting-started/run-syncstack-kubernetes',
-      'getting-started/clients',
+      'get-started/syncstack',
+      'get-started/run-syncstack-locally',
+      'get-started/run-syncstack-docker',
+      'get-started/run-syncstack-kubernetes',
     ],
-    Clients: ['clients/java', 'clients/go', 'clients/c'],
+    Clients: ['clients/clients','clients/java', 'clients/go', 'clients/c'],
+    'Administration': ['administration/syncstack-cli','administration/syncstack-configuration']
   },
 };

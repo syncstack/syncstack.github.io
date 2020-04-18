@@ -1,6 +1,7 @@
 ---
-id: getting-started
-title: Getting Started
+id: syncstack
+title: SyncStack
+sidebar_label: SyncStack
 ---
 
 Generally speaking, uniforms are a set of React libraries for building forms from every schema.
