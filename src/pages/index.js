@@ -8,18 +8,17 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>SyncStack is Open-Source</>,
+    imageUrl: 'img/undraw_open_source.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Syncstack is an open source database.
       </>
     ),
   },
   {
-    title: <>Fast</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Easy to Use</>,
+    imageUrl: 'img/undraw_server.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -28,21 +27,32 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Client libraries</>,
+    imageUrl: 'img/undraw_coding.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Flexible messaging models with high-level APIs for Java, Go, C
       </>
     ),
   },
+  {
+    title: <>Integrations</>,
+    imageUrl: 'img/undraw_integration.svg',
+    description: (
+      <>
+        We are support to cloud native applications.
+        We have Kubernetes and Docker integration. 
+        You can just look at the documentation.
+      </>
+    ),
+  },
+
 ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4', styles.feature)}>
+    <div className={classnames('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -59,8 +69,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} | Fault tolerant high performance SQL database 🚀`}
+      description="Fault tolerant high performance SQL database 🚀">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

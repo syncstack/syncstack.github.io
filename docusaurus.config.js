@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'syncstack', 
   projectName: 'syncstack.github.io',
   themeConfig: { 
+    disableDarkMode: true,
     navbar: {
       title: 'SYNCSTACK',
       links: [
@@ -62,6 +63,10 @@ module.exports = {
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/syncstack',
+            },
+            {
+              label: 'Google User Group',
+              href: 'https://groups.google.com/forum/#!forum/syncstack',
             },
           ],
         },
