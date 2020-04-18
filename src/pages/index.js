@@ -17,12 +17,23 @@ const features = [
     ),
   },
   {
+    title: <>In-Memory SQL</>,
+    imageUrl: 'img/undraw_sql.svg',
+    description: (
+      <>
+      You can select your in memory data with SQL syntax. 
+      Works with standard SQL, no weird dialects or new syntax to learn.
+      </>
+    ),
+  },
+
+  {
     title: <>Easy to Use</>,
     imageUrl: 'img/undraw_server.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        You can create a table as like in traditional db or json table.
+        You can create a <code>json></code> table and query it.
       </>
     ),
   },
