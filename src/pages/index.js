@@ -51,9 +51,7 @@ const features = [
     imageUrl: 'img/undraw_integration.svg',
     description: (
       <>
-        We are support to cloud native applications.
-        We have Kubernetes and Docker integration. 
-        You can just look at the documentation.
+      We support cloud native applications. We have Kubernetes and Docker integration. You can check all these at the documentation.
       </>
     )
   },
