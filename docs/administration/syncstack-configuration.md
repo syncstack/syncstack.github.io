@@ -3,7 +3,7 @@ id: syncstack-configuration
 title: Configuration
 sidebar_label: SyncStack Configuration
 ---
-Syncstack is configurable through a configuration file, various command-line flags, and environment variables.
+Syncstack is configurable through a configuration file, various command-line flags.
 ## Member flags
 
 ### node-name

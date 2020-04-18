@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': [
+    'Get Started': [
       'get-started/syncstack',
       'get-started/run-syncstack-locally',
       'get-started/run-syncstack-docker',
