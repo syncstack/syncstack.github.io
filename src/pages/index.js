@@ -68,7 +68,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={classnames(
-                'button',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('/docs/get-started/syncstack')}>
