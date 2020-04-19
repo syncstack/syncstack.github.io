@@ -90,9 +90,8 @@ module.exports = {
       trackingID: 'UA-163876269-1',
     },
     algolia: {
-      appId: 'app-id',
-      apiKey: 'api-key',
-      indexName: 'index-name',
+      apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
+      indexName: 'syncstack',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
