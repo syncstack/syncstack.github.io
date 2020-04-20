@@ -103,7 +103,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/syncstack/syncstack.github.io/tree/master/',
+            'https://github.com/syncstack/syncstack.github.io/tree/dev/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
