@@ -7,6 +7,12 @@ module.exports = {
   organizationName: 'syncstack', 
   projectName: 'syncstack.github.io',
   themeConfig: { 
+    algolia: {
+      appId: 'WVCFAN8G6O',
+      apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
+      indexName: 'syncstack',
+      algoliaOptions: {},
+    },
     disableDarkMode: true,
     navbar: {
       title: 'SYNCSTACK',

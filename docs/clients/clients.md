@@ -13,3 +13,5 @@ SyncStack supports the following client libraries:
 ## Feature matrix
 
 ## Third-party clients
+
+Administration
