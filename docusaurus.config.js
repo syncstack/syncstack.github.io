@@ -6,6 +6,12 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'syncstack', 
   projectName: 'syncstack.github.io',
+  algolia: {
+    appId: 'BH4D9OD16A',
+    apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
+    indexName: 'syncstack',
+    algoliaOptions: {},
+  },
   themeConfig: { 
     disableDarkMode: true,
     navbar: {
