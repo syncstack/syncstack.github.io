@@ -6,12 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'syncstack', 
   projectName: 'syncstack.github.io',
-  algolia: {
-    appId: 'BH4D9OD16A',
-    apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
-    indexName: 'syncstack',
-    algoliaOptions: {},
-  },
   themeConfig: { 
     disableDarkMode: true,
     navbar: {
@@ -42,13 +36,7 @@ module.exports = {
           position: 'right',
         },
       ],
-    },
-    algolia: {
-      appId: 'BH4D9OD16A',
-      apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
-      indexName: 'syncstack',
-      algoliaOptions: {},
-    },
+    }
     footer: {
       style: 'dark',
       links: [
@@ -102,10 +90,10 @@ module.exports = {
       trackingID: 'UA-163876269-1',
     },
     algolia: {
-      appId: 'app-id',
-      apiKey: 'api-key',
-      indexName: 'index-name',
-      algoliaOptions: {}, // Optional, if provided by Algolia
+      appId: 'BH4D9OD16A',
+      apiKey: 'ec94f30ffee97f1cabf8a30065d0a4ce',
+      indexName: 'syncstack',
+      algoliaOptions: {},
     },
   },
   presets: [
