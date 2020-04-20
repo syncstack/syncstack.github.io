@@ -36,7 +36,7 @@ module.exports = {
           position: 'right',
         },
       ],
-    }
+    },
     footer: {
       style: 'dark',
       links: [
