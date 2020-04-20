@@ -18,7 +18,7 @@ module.exports = {
           position: 'right',
         },
         {
-          to: 'docs/doc1',
+          to: 'docs/downloads',
           activeBasePath: 'docs',
           label: 'Downloads',
           position: 'right',
